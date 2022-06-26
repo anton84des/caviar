@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Caviar</title>
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/popup.js"></script>
+</head>
+<body>
+
+	<!-- HEADER -->
+	<header>
+		<div class="menu-bg">
+			<div class="container">
+				<div class="navigation">
+					<ul class="hidden-xs reg">
+						<li><a href="#specialoffer">Наше предложение</a></li>
+						<li><a href="#specialprice">Специальная цена</a></li>
+						<li><a href="#quality">Качество</a></li>
+						<li><a href="#beneficialfeatures">Полезные свойства</a></li>
+						<li><a href="#partner">Стать партнером</a></li>
+						<li><button type="button" id="go" class="btn btn-default or pop_b">заказать</button></li>
+						<div class="popup">
+							<h4>Введите ваши данные:</h4>
+							<span id="close"></span>
+							<form action=""><input type="text" name="same" placeholder="Ваше имя"></form>
+							<form action=""><input type="text" name="surname" placeholder="Ваша фамилия"></form>
+							<form action=""><input type="text" name="email" placeholder="Электронная почта"></form>
+							<label for="term-of-use"><input type="checkbox" id="term-of-use">Разрешаю обработку персональных данных</label>
+							<button type="button" class="btn btn-default or">отправить</button>
+						</div>
+					</ul>
+				</div>
+
+				<nav class="navbar navbar-default hidden-md hidden-sm hidden-lg">
+					<div class="container-fluid">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav">
+								<li><a href="#specialoffer">Наше предложение</a></li>
+								<li><a href="#specialprice">Специальная цена</a></li>
+								<li><a href="#quality">Качество</a></li>
+								<li><a href="#beneficialfeatures">Полезные свойства</a></li>
+								<li><a href="#partner">Стать партнером</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+
+				<div class="menu">
+					<div class="lang">
+						<span class="select">выбрать язык</span>
+						<div class="btn-group">
+							<button class="btn btn-default btn-xs dropdown-toggle" type="button" data-toggle="dropdown">
+								RU <span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu">
+								<li><a href="#">RU</a></li>
+								<li><a href="#">UA</a></li>
+								<li><a href="#">ENG</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="card one">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<div class="row row-bg">
+							<div class="col-md-6 left-column">
+								<h1><a name="specialoffer">Royal2Caviar</a></h1>
+								<h6>черная и красная икра, созданная гением</h6>
+								<p>Побалуйте себя авторской молекулярной кухней высшего ресторанного качества. Наша продукция была разработана по запатентованной технологии без аналогов в мире. Это делает икру Royal2Caviar действительно уникальной!</p>
+								<div class="row ">
+									<div class="col-md-6 col-sm-3">
+										<button type="button" class="btn btn-default btn-hover">оплатить и заказать</button>
+									</div>
+									<div class="col-md-6 col-sm-3 price-block">
+										<span class="item">1 комплект =</span>
+										<span class="price">299 EUR</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 right-column">
+								<img src="img/caviar.png">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="down">
+				<div class="down-img">
+					<img src="img/arrow-down.png">
+				</div>
+			</div>
+			<div class="advantages">
+				<div class="row">
+					<div class="w100">
+						<div class="col-md-2 col-md-offset-2 advantages-item first">
+							<div class="taste"></div>
+							<span>100% вкус</span>
+						</div>
+					</div>
+					<div class="w100">
+						<div class="col-md-2 col-md-offset-1 advantages-item">
+							<div class="view"></div>
+							<span>100% вид</span>
+						</div>
+					</div>
+					<div class="w100">
+						<div class="col-md-2 col-md-offset-1 advantages-item">
+							<div class="smell"></div>
+							<span>100% запах</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- BANNER -->
+	<div class="banner">
+		<div class="container">
+			<div class="card two">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<div class="row row-bg">
+							<div class="col-md-6 left-column col-md-push-6">
+								<h1><a name="specialprice">King size — <br> special price!</a></h1>
+								<p class="paragraph-regular">1 комплект = 1кг икры русского осетра + 1кг икры горбуши = 299 EUR</p>
+								<div class="row ">
+									<div class="col-md-6 col-sm-3">
+										<button type="button" class="btn btn-default">оплатить и заказать</button>
+									</div>
+									<div class="col-md-6 col-sm-3 price-block">
+										<span class="item">1 комплект =</span>
+										<span class="price">299 EUR</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 right-column-banner col-md-pull-6">
+								<img src="img/caviar-2.png">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<h1 class="under-card">Успей заказать по специальной цене</h1>
+			<p class="paragraph-regular under-card">цена продукции повышается с количеством проданных наборов</p>
+			<div class="row diagram-items">
+				<div class="col-md-6 row-bg ">
+					<div class="row">
+						<div class="col-md-10 col-md-offset-2">
+							<div class="col-md-5 d-block diagram-item">
+								<div class="time"></div>
+								<span class="counter-days">Счетчик времени</span>
+								<span class="days">28 дней</span>
+							</div>
+							<div class="col-md-5 col-md-offset-1 d-block diagram-item">
+								<div class="sale"></div>
+								<span class="counter-sales">Счетчик продаж</span>
+								<span class="number-sales">28 дней</span>
+							</div>
+							<div class="row ">
+								<div class="col-md-6">
+									<p class="paragraph-regular">Royal2Caviar — Royal Quality!</p>
+									<button type="button" class="btn btn-default">оплатить и заказать</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<img src="img/grafick.png">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 	CARD SECRET -->
+	<div class="card-secret">
+		<h1 class="secret"><a name="beneficialfeatures">Секрет нашей икры</a></h1>
+		<div class="container">
+			<div class="row secret-columns">
+				<div class="col-md-5 col-md-offset-1 row-bg left-column-secret ">
+					<h6>Состав</h6>
+					<p class="composition">Специальная формула состава икры обладает свойствами стимулирования имунной системы , противоаллергенным и противовоспалительным действием, связывает в организме человека соли тяжелых металлов и радионуклидов, накопленных в организме. Наша икра - медицинское питание, она является средством детоксикации организма.</p>
+					<h6>Рекомендовано врачами</h6>
+					<p>Мы не используем токсичные элементы, пестициды, радионуклиды и тяжелые консерванты. Наша икра пастеризована и очищена от бактерий. Рекомендована врачами в послеоперационный период и во время реабилитации после болезни.</p>
+				</div>
+				<div class="col-md-5 row-bg">
+					<h6>Чистота продукции</h6>
+					<p class="purity">Мы не добавляем в нашу икру аспирин для более длительного хранения. Икра Royal Caviar не пахнет лекарствами, а пахнет икрой. Используется только растительное масло с высокой степенью очистки. Содержание масла и соли до 5%. Без ГМО. Низкий гликемический индекс.</p>
+					<h6>Источник полезных веществ</h6>
+					<p>Рекомендуется употреблять в качестве источника полинасыщенных жирных кислот Омега-3, таких витаминов: A, B1, B2, B3, B9, C, D, D3, E, минералов (натрий, фосфор, сера, калий, кальций, магний, железо, фтор), фолиевая кислота.</p>
+				</div>
+			</div>
+			<h1 class="under-card"><a name="quality">Кому интересно заказать Royal2Caviar</a></h1>
+			<div class="row">
+				<div class="w100">
+					<div class="col-md-3 secret-item">
+						<div class="cake"></div>
+						<h4>Угощение для каждого стола</h4>
+						<span>Лучший подарок на день рождения.<br><br>Royal Caviar -  лучший деликатес на Вашем праздничном столе.</span>
+					</div>
+				</div>
+				<div class="w100">
+					<div class="col-md-3 secret-item">
+						<div class="fruits"></div>
+						<h4>Высокая молекулярная кухня</h4>
+						<span>Одна банка обычной натуральной икры - это тысячи не родившихся осетров и горбуш.<br><br>Мы разделяем вашу гражданскую позицию. Royal Caviar - выбор №1 среди вегитарианцев.</span>
+					</div>
+				</div>
+				<div class="w100">
+					<div class="col-md-3 secret-item">
+						<div class="sushi"></div>
+						<h4>Ресторатарам</h4>
+						<span>Качество нашей икры подходит для суши и других деликатесов в вашем меню.<br><br>Работайте с нами напрямую!</span>
+					</div>
+				</div>
+				<div class="w100">
+					<div class="col-md-3 secret-item">
+						<div class="hands"></div>
+						<h4>Диетический продукт</h4>
+						<span>В икре содержится  лецитин способствует быстрому выведению холестерина из организма.<br><br>Наш продукт полезен не только будущим и кормящим мамам, но и  детям от 3 лет.</span>
+					</div>
+				</div>
+			</div>
+			<div class="secret-button">
+				<button type="button" class="btn btn-default gr">оплатить и заказать</button>
+			</div>
+		</div>
+
+		<!-- DELIVERY -->
+		<div class="delivery">
+			<div class="container">
+				<div class="row ">
+					<div class="col-md-6 row-bg">
+						<h1 class="inside">Оплата и доставка</h1>
+						<p class="delivery-p">Мы принимает оплату через электронную платежную платформу для осуществления международных платежей</p>
+						<div class="payoneer">
+							<img src="img/Payoneer-Logo_900x314_high-01.jpg" class="p-logo">
+							<div class="p-decription">
+								<span class="p-registr">Не зарегистрированы в Payoneer?<br> 
+									<a href="http://register.payoneer.com/get-paid-by-client-and-companies-worldwide-ru/?utm_source=Google&utm_medium=Search&utm_campaign=Search-Brand-Ukraine-RU&network=g&device=c&Devicemodel=&Creative=220400110496&Keyword=Payoneer&Placement=&gclid=CjwKCAiApo3SBRA4EiwAty8i-gOW_4Fzm0695LbRwJQpyXrCU-SW_SwC6xU_-_fnnsDjHrF2N_IvwRoC7MQQAvD_BwE">Ссылка для регистрации.</a></span>
+								</div>
+							</div>
+							<p class="delivery-p">В современном мире, где стираются границы, и цифровые технологии приобретают всё большее значение, компания Payoneer (реф.ссылка) помогает миллионам компаний из более чем 200 стран расширить свое присутствие на мировом рынке.</p>
+							<p class="paragraph-regular under-card">Доставка осуществляется после оплаты в течение 15 дней. Курьер доставит вам заказ прямо до дверей.</p>
+
+							<button type="button" class="btn btn-default">оплатить и заказать</button>
+
+						</div>
+					</div>
+					<h1 class="under-card">Наш продукт — это медицинское питание:</h1>
+					<p class="paragraph-regular under-card">Полезные свойства икры Royal2Caviar</p>
+					<div class="row-flex">
+						<div class="col-md-3 col-sm-3 secret-item">
+							<span class="number">1</span>
+							<span>Улучшает деятельность головного мозга</span>
+						</div>
+						<div class="col-md-3 col-sm-3 secret-item">
+							<span class="number">2</span>
+							<span>Уменьшает возможность возникновения тромбов</span>
+						</div>
+						<div class="col-md-3 col-sm-3 secret-item">
+							<span class="number">3</span>
+							<span>Улучшает состояние волос и кожи</span>
+						</div>
+						<div class="col-md-3 col-sm-3 secret-item">
+							<span class="number">4</span>
+							<span>Выводит холестерин из организма</span>
+						</div>
+						<div class="col-md-3 col-sm-3 secret-item">
+							<span class="number">5</span>
+							<span>Нормализует давление</span>
+						</div>
+						<div class="col-md-3 col-sm-3 secret-item">
+							<span class="number">6</span>
+							<span>Улучшает зрение</span>
+						</div>
+						<div class="col-md-3 col-sm-3 secret-item">
+							<span class="number">7</span>
+							<span>Укрепляет кости</span>
+						</div>
+						<div class="col-md-3 col-sm-3 secret-item">
+							<span class="number">8</span>
+							<span>Эффективно при атеросклерозе</span>
+						</div>
+						<div class="col-md-3 col-sm-3 secret-item">
+							<span class="number">9</span>
+							<span>Предупреждает малокровие</span>
+						</div>
+						<div class="col-md-3 col-sm-3 secret-item">
+							<span class="number">10</span>
+							<span>Улучшает детородные функции, стимулирует выработку тестостерона</span>
+						</div>
+						<div class="col-md-3 col-sm-3 secret-item">
+							<span class="number">11</span>
+							<span>Заглушает чувствительность организма к аллергенам</span>
+						</div>
+						<div class="col-md-3 col-sm-3 secret-item">
+							<span class="number">12</span>
+							<span>Повышает уровень серотонина</span>
+						</div>
+					</div>
+					<p class="paragraph-regular under-card">Royal2Caviar — выбор людей, заботящихся о своем здоровье.</p>
+					<div class="secret-button">
+						<button type="button" class="btn btn-default or">оплатить и заказать</button>
+					</div>
+				</div>
+			</div>
+
+			<!-- BUSINESS -->
+			<div class="business">
+				<div class="container">
+					<div class="row ">
+						<div class="col-md-6 row-bg">
+							<h1 class="inside"><a name="partner">Бизнесс с нами</a></h1>
+							<p class="delivery-p">После оплаты  заказа вам на электронную почту прийдет письмо с благодарностью з покупку и предложением стать нашим партнером в вашей стране (национальным представителем по системе Private Lable).</p>
+							<p class="delivery-p">Если вас заинтересует наше предложение, то ответьте на наше письмо и во втором письме мы отправим вам условия сотрудничества. Людям, не купившим комплект, письмо о сотрудничестве не приходит.</p>
+							<p class="delivery-p">Люди, согласившиеся стать нашим партнером, получат выгодные условия и суперцену на наш продукт. Благодаря чему смогут  получать высокий доход.</p>
+							<div class="business-button">
+								<button type="button" class="btn btn-default">оплатить и заказать</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+			<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+			<script src="js/bootstrap.js"></script>
+			<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+		</body>
+		</html>
